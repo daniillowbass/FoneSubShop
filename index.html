@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ИП Мустафаев | Автомобильная акустика и автозвук | Создатель: Мустафаев Даниил</title>
+  <meta name="description" content="Официальный магазин автомобильной акустики ИП Мустафаев. Сабвуферы от 8 до 18 дюймов, медные силовые кабели ГОСТ и 0 Ga, магнитолы с DSP-процессором. Создатель магазина и сайта: Мустафаев Даниил, почта: mustafaevdaniil07@gmail.com." />
+
+  <!-- Google Fonts & FontAwesome -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ==========================================================================
+       HEADER & NAVIGATION (Требование 2: шапка, подвал, меню)
+       ========================================================================== -->
+  <header class="site-header" id="header">
+    <div class="container header-inner">
+      <a href="#hero" class="brand-logo">
+        <div class="logo-icon">
+          <i class="fa-solid fa-bolt-lightning" style="color: #fff; font-size: 1.25rem;"></i>
+        </div>
+        <div class="logo-text">
+          <h1>ИП <span>МУСТАФАЕВ</span></h1>
+          <p>Автоакустика • Создатель: Мустафаев Даниил</p>
+        </div>
+      </a>
+
+      <nav class="nav-menu" id="navMenu">
+        <a href="#pyramid" class="nav-link">Пирамида баса</a>
+        <a href="#catalog" class="nav-link">Каталог (22)</a>
+        <a href="#zero-block" class="nav-link">Zero-блок & Калькулятор</a>
+        <a href="#advantages" class="nav-link">Преимущества</a>
+        <a href="#stages" class="nav-link">Этапы</a>
+        <a href="#gallery" class="nav-link">Галерея</a>
+        <a href="#creator" class="nav-link">О создателе</a>
+        <a href="#contacts" class="nav-link">Контакты</a>
+      </nav>
+
+      <div class="header-actions">
+        <div class="cart-pill" id="cartToggle" title="Открыть корзину">
+          <i class="fa-solid fa-cart-shopping" style="color: var(--color-orange);"></i>
+          <span>Корзина</span>
+          <span class="cart-counter" id="cartCounter">0</span>
+        </div>
+        <a href="#order" class="btn btn-primary btn-sm" style="display: none; @media(min-width: 640px){ display: inline-flex; }">
+          <i class="fa-solid fa-paper-plane"></i> Заказ
+        </a>
+        <button class="burger-btn" id="burgerBtn" aria-label="Открыть меню">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+       HERO SECTION
+       ========================================================================== -->
+  <section class="hero-section" id="hero">
+    <div class="container hero-grid">
+      <div class="hero-text-content">
+        <div class="hero-badge-wrap">
+          <span class="badge badge-orange">
+            <i class="fa-solid fa-fire"></i> Официальный дилер автозвука
+          </span>
+        </div>
+        <h2 class="hero-title">
+          ЭНЕРГИЯ ЗВУКА И <br />
+          <span class="gradient-text">СОКРУШИТЕЛЬНЫЙ БАС</span>
+        </h2>
+        <p class="hero-desc">
+          Профессиональный подбор автозвука от компактных стелс-сабвуферов 8"–10" до экстремальных ветродуев 18". 
+          Качественные силовые кабели из 100% меди ГОСТ и 0 Ga, а также процессорные магнитолы с DSP для идеальной сцены.
+        </p>
+        <div class="hero-cta">
+          <a href="#catalog" class="btn btn-primary">
+            <i class="fa-solid fa-sliders"></i> Перейти в каталог
+          </a>
+          <a href="#pyramid" class="btn btn-outline">
+            <i class="fa-solid fa-layer-group"></i> Пирамида калибров
+          </a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat-item">
+            <h3>22+</h3>
+            <p>Топовых компонентов в каталоге</p>
+          </div>
+          <div class="stat-item">
+            <h3>100%</h3>
+            <p>Чистая медь ГОСТ & OFC в кабелях</p>
+          </div>
+          <div class="stat-item">
+            <h3>DSP</h3>
+            <p>Процессорная поканальная настройка</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="woofer-circle-back"></div>
+        <div class="woofer-graphic-card">
+          <div class="floating-pill pill-top-right">
+            <i class="fa-solid fa-wave-square" style="color: var(--color-cyan);"></i>
+            <span>22–80 Гц Инфраниз</span>
+          </div>
+          <div class="subwoofer-svg-wrapper">
+            <div class="subwoofer-ring"></div>
+            <div class="subwoofer-cone">
+              <div class="subwoofer-cap">BASS</div>
+            </div>
+          </div>
+          <h3 style="font-size: 1.35rem; font-weight: 800; margin-bottom: 6px; color: #fff;">MUSTAFAEV SPL LAB</h3>
+          <p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 12px;">Готовые решения для SQ и SPL любого уровня</p>
+          <span class="badge badge-cyan"><i class="fa-solid fa-shield-halved"></i> Гарантия ИП Мустафаев</span>
+          <div class="floating-pill pill-bot-left">
+            <i class="fa-solid fa-bolt" style="color: var(--color-orange);"></i>
+            <span>Мощность до 4000+ Вт RMS</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       DIVIDER 1
+       ========================================================================== -->
+  <div class="section-divider">
+    <div class="divider-line"></div>
+    <div class="divider-badge">
+      <i class="fa-solid fa-music" style="color: var(--color-orange);"></i>
+      <span>Калибры звукового давления</span>
+    </div>
+    <div class="divider-line"></div>
+  </div>
+
+  <!-- ==========================================================================
+       PYRAMID SECTION (Пирамидка-расстановка товаров по калибрам)
+       ========================================================================== -->
+  <section class="pyramid-section" id="pyramid">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Иерархия мощности</span>
+        <h2 class="section-title">ПИРАМИДА КАЛИБРОВ САБВУФЕРОВ</h2>
+        <p class="section-desc">
+          Нажмите на любой уровень пирамиды, чтобы мгновенно изучить специфику калибра — от деликатного SQ и скрытого монтажа до максимального ветра (Hair-trick) и SPL-соревнований.
+        </p>
+      </div>
+
+      <div class="pyramid-container">
+        <!-- ЯРУС 1: ВЕРШИНА (8 и 10 дюймов) -->
+        <div class="pyramid-tier tier-1 active" data-category="sub-8-10" title="Нажмите для фильтра">
+          <div class="tier-content">
+            <div class="tier-icon-box">
+              <i class="fa-solid fa-compact-disc"></i>
+            </div>
+            <div class="tier-info">
+              <h4>8" & 10" Компактные <span class="badge badge-cyan">Вершина пирамиды</span></h4>
+              <p>УРАЛ Булава 8, DL Audio Barracuda 10 Flat, Focal SUB 10</p>
+            </div>
+          </div>
+          <div class="tier-metrics">
+            <span class="tier-hz">45 – 80 Гц</span>
+            <span class="tier-tag">Быстрый бас & Стелс</span>
+          </div>
+        </div>
+
+        <!-- ЯРУС 2: 12 ДЮЙМОВ (Универсальные) -->
+        <div class="pyramid-tier tier-2" data-category="sub-12" title="Нажмите для фильтра">
+          <div class="tier-content">
+            <div class="tier-icon-box">
+              <i class="fa-solid fa-circle-dot"></i>
+            </div>
+            <div class="tier-info">
+              <h4>12" Универсальные <span class="badge badge-orange">Золотая середина</span></h4>
+              <p>УРАЛ ТТ 12, Pride M.12 1200W, Black Hydra Gamma 12, DL Phoenix BM 12</p>
+            </div>
+          </div>
+          <div class="tier-metrics">
+            <span class="tier-hz">33 – 50 Гц</span>
+            <span class="tier-tag">Любые жанры музыки</span>
+          </div>
+        </div>
+
+        <!-- ЯРУС 3: 15 ДЮЙМОВ (Крупные) -->
+        <div class="pyramid-tier tier-3" data-category="sub-15" title="Нажмите для фильтра">
+          <div class="tier-content">
+            <div class="tier-icon-box">
+              <i class="fa-solid fa-bullseye"></i>
+            </div>
+            <div class="tier-info">
+              <h4>15" Крупнокалиберные <span class="badge badge-gold">Глубокий флекс</span></h4>
+              <p>DL Gryphon Pro 15, Pride M.15, Machete Fight S15, Apocalypse DB-315</p>
+            </div>
+          </div>
+          <div class="tier-metrics">
+            <span class="tier-hz">26 – 38 Гц</span>
+            <span class="tier-tag">Глубокие «низы» и отдача</span>
+          </div>
+        </div>
+
+        <!-- ЯРУС 4: ОСНОВАНИЕ ПИРАМИДЫ (18 дюймов) -->
+        <div class="pyramid-tier tier-4" data-category="sub-18" title="Нажмите для фильтра">
+          <div class="tier-content">
+            <div class="tier-icon-box">
+              <i class="fa-solid fa-wind"></i>
+            </div>
+            <div class="tier-info">
+              <h4>18" Экстремальные <span class="badge badge-red">Фундамент давления</span></h4>
+              <p>DL Audio Raven 18, Pride BB.3 18, Apocalypse DB-318, Pride Sv.3 18</p>
+            </div>
+          </div>
+          <div class="tier-metrics">
+            <span class="tier-hz">20 – 32 Гц</span>
+            <span class="tier-tag">Максимальный ветродуй</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Live Pyramid Info Box -->
+      <div class="pyramid-highlight-box">
+        <div class="pyramid-highlight-text">
+          <h4 id="pyramidHighlightTitle">Компактные 8 и 10 дюймов: Быстрый панч и стелс-короба</h4>
+          <p id="pyramidHighlightDesc">
+            Идеальны для точного SQ-баса (Focal SUB 10), скрытой установки под сиденье или в крыло (DL Audio Barracuda 10 Flat) и систем с жестким дефицитом полезного объема багажника (УРАЛ Булава 8).
+          </p>
+        </div>
+        <button class="btn btn-primary" id="pyramidHighlightAction">
+          <i class="fa-solid fa-filter"></i> Отфильтровать в каталоге
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       CATALOG SECTION (Все 22 товара с фото, описанием, характеристиками)
+       ========================================================================== -->
+  <section class="catalog-section" id="catalog">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Полный ассортимент</span>
+        <h2 class="section-title">КАТАЛОГ КОМПОНЕНТОВ АВТОЗВУКА</h2>
+        <p class="section-desc">
+          Оригинальные сабвуферы всех калибров, проверенные силовые и акустические кабели из чистой меди, а также процессорные магнитолы ведущих мировых брендов.
+        </p>
+      </div>
+
+      <!-- Filter Controls -->
+      <div class="catalog-controls">
+        <div class="catalog-tabs">
+          <button class="tab-btn active" data-category="all">Все компоненты (22)</button>
+          <button class="tab-btn" data-category="sub-8-10">8" и 10" Компактные (3)</button>
+          <button class="tab-btn" data-category="sub-12">12" Универсальные (4)</button>
+          <button class="tab-btn" data-category="sub-15">15" Крупные (4)</button>
+          <button class="tab-btn" data-category="sub-18">18" Экстремальные (4)</button>
+          <button class="tab-btn" data-category="cables">Кабели силовые & акустические (4)</button>
+          <button class="tab-btn" data-category="headunits">Магнитолы с DSP (3)</button>
+        </div>
+
+        <div class="catalog-search-sort">
+          <div class="search-box">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" id="searchInput" placeholder="Поиск по названию (Pride, Урал, DL Audio, 0 Ga, DSP)..." />
+          </div>
+
+          <div class="sort-box">
+            <select id="sortSelect" aria-label="Сортировка товаров">
+              <option value="default">Сортировка по умолчанию</option>
+              <option value="price-asc">Сначала доступные (по цене)</option>
+              <option value="price-desc">Сначала премиальные (по цене)</option>
+              <option value="name">По алфавиту (А–Я)</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <!-- Products Grid -->
+      <div class="products-grid" id="productsContainer">
+        <!-- Rendered by JavaScript -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       DIVIDER 2
+       ========================================================================== -->
+  <div class="section-divider">
+    <div class="divider-line"></div>
+    <div class="divider-badge">
+      <i class="fa-solid fa-sliders" style="color: var(--color-cyan);"></i>
+      <span>Лаборатория кастомизации</span>
+    </div>
+    <div class="divider-line"></div>
+  </div>
+
+  <!-- ==========================================================================
+       ZERO-BLOCK / CUSTOM HTML BLOCK
+       (Требование 6: HTML-блок и/или Zero-блок для кастомизации сайта со скриптами)
+       ========================================================================== -->
+  <section class="zero-block-section" id="zero-block">
+    <div class="container">
+      <div class="zero-block-wrapper">
+        <span class="zero-block-badge">
+          <i class="fa-solid fa-code"></i> ZERO-BLOCK / CUSTOM JS ENGINE
+        </span>
+        
+        <div style="max-width: 650px;">
+          <span class="section-tag" style="color: var(--color-cyan);">Интерактивный блок кастомизации</span>
+          <h2 class="section-title" style="margin-bottom: 10px;">BASS & POWER STUDIO</h2>
+          <p class="section-desc">
+            Кастомный инженерный блок с собственными скриптами: рассчитайте сечение питающего кабеля без просадок и протестируйте воспроизведение низких частот через Web Audio API.
+          </p>
+        </div>
+
+        <div class="zero-block-grid">
+          <!-- Инструмент 1: Калькулятор питания и предохранителя -->
+          <div class="tool-card">
+            <h4><i class="fa-solid fa-calculator" style="color: var(--color-orange);"></i> Калькулятор сечения кабеля</h4>
+            <p class="subtitle">Расчет кабеля и номинала ANL предохранителя под мощность системы</p>
+
+            <div class="calc-field">
+              <label for="calcPower">Суммарная мощность усилителей (RMS, Вт):</label>
+              <input type="number" id="calcPower" value="1200" step="100" min="200" max="10000" />
+            </div>
+
+            <div class="calc-field">
+              <label for="calcLength">Длина кабельной трассы (метры):</label>
+              <input type="number" id="calcLength" value="5" step="0.5" min="1" max="10" />
+            </div>
+
+            <div class="calc-field">
+              <label for="calcVoltage">Напряжение бортовой сети (В):</label>
+              <select id="calcVoltage">
+                <option value="13.8">13.8 В (Штатный генератор)</option>
+                <option value="14.4" selected>14.4 В (WPS / повышенный генератор)</option>
+                <option value="12.6">12.6 В (Заглушенный двигатель)</option>
+              </select>
+            </div>
+
+            <div class="calc-result-box">
+              <h5>Рекомендуемое сечение:</h5>
+              <div class="calc-result-value" id="resultCable">4 Ga / 21-25 мм² (КГ 1х25)</div>
+              <div id="resultFuse" style="font-size: 0.85rem; color: #fff; margin-top: 6px;">Ток: ~108А | Предохранитель: 120-150A ANL</div>
+            </div>
+          </div>
+
+          <!-- Инструмент 2: Web Audio API Генератор синуса баса -->
+          <div class="tool-card">
+            <h4><i class="fa-solid fa-volume-high" style="color: var(--color-cyan);"></i> Генератор частоты баса</h4>
+            <p class="subtitle">Синтезатор синусоиды для оценки хода диффузора и басового регистра</p>
+
+            <div class="sound-generator-box">
+              <div class="hz-slider-wrap">
+                <div class="hz-display">
+                  <span style="font-size: 0.9rem; color: var(--text-secondary);">Частота среза / настройки:</span>
+                  <span class="hz-num" id="hzDisplayNum">35 Гц</span>
+                </div>
+                <input type="range" id="hzSlider" class="slider-input" min="22" max="80" value="35" />
+                <div style="display: flex; justify-content: space-between; font-size: 0.75rem; color: var(--text-muted);">
+                  <span>22 Гц (Инфраниз 18")</span>
+                  <span>35 Гц (Повседнев 12-15")</span>
+                  <span>75 Гц (Панч 8-10")</span>
+                </div>
+              </div>
+
+              <!-- Visualizer Bars -->
+              <div class="bass-visualizer">
+                <div class="visual-bar"></div>
+                <div class="visual-bar"></div>
+                <div class="visual-bar"></div>
+                <div class="visual-bar"></div>
+                <div class="visual-bar"></div>
+                <div class="visual-bar"></div>
+                <div class="visual-bar"></div>
+                <div class="visual-bar"></div>
+                <div class="visual-bar"></div>
+                <div class="visual-bar"></div>
+                <div class="visual-bar"></div>
+              </div>
+
+              <button class="btn btn-cyan" id="hzPlayBtn" style="width: 100%;">
+                <i class="fa-solid fa-play"></i> Тест басового тона
+              </button>
+              <p style="font-size: 0.75rem; color: var(--text-muted); text-align: center;">
+                * Запуск встроенного Web Audio API синуса на мягкой безопасной громкости.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       ADVANTAGES SECTION (Требование 5: блок преимущества)
+       ========================================================================== -->
+  <section class="advantages-section" id="advantages" style="padding: 70px 0;">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Надежность и качество</span>
+        <h2 class="section-title">ПОЧЕМУ ВЫБИРАЮТ MUSTAFAEV AUDIO</h2>
+        <p class="section-desc">
+          Мы не просто продаем динамики — мы строим сбалансированные звуковые системы с учетом питания, геометрии салона и музыкальных предпочтений.
+        </p>
+      </div>
+
+      <div class="advantages-grid">
+        <div class="adv-card">
+          <div class="adv-icon">
+            <i class="fa-solid fa-certificate"></i>
+          </div>
+          <h3>100% Оригинал</h3>
+          <p>
+            Прямые поставки от брендов УРАЛ, Pride, DL Audio, Deaf Bonce / Machete, Focal и Pioneer. Официальные гарантийные талоны и заводская упаковка.
+          </p>
+        </div>
+
+        <div class="adv-card">
+          <div class="adv-icon">
+            <i class="fa-solid fa-cube"></i>
+          </div>
+          <h3>Расчет коробов</h3>
+          <p>
+            Индивидуальный расчет литража и порта (ФИ короб, щель, труба с раскрывом, стелс в крыло или закрытый ящик SQ) под ваш кузов автомобиля.
+          </p>
+        </div>
+
+        <div class="adv-card">
+          <div class="adv-icon">
+            <i class="fa-solid fa-battery-full"></i>
+          </div>
+          <h3>Безопасное питание</h3>
+          <p>
+            Подбираем сечение силовых кабелей (КГ 1х25, Machete 0 Ga, DL Audio 4 Ga) без падения вольтажа и риска перегрева проводки.
+          </p>
+        </div>
+
+        <div class="adv-card">
+          <div class="adv-icon">
+            <i class="fa-solid fa-truck-fast"></i>
+          </div>
+          <h3>Бережная доставка</h3>
+          <p>
+            Надежная упаковка динамиков в обрешетку. Страховка отправлений и оперативная доставка по всей России ведущими транспортными компаниями.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       STAGES SECTION (Требование 5: этапы)
+       ========================================================================== -->
+  <section class="stages-section" id="stages" style="padding: 70px 0; background: rgba(18, 22, 31, 0.4);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Прозрачный процесс</span>
+        <h2 class="section-title">4 ЭТАПА ДО МОЩНОГО ЗВУКА</h2>
+        <p class="section-desc">
+          Как строится работа от первой консультации до настройки звукового процессора в вашем авто.
+        </p>
+      </div>
+
+      <div class="stages-grid">
+        <div class="stage-card">
+          <div class="stage-num">01</div>
+          <h3>Консультация</h3>
+          <p>Определяем ваши цели: быстрый компактный стелс-бас, универсальный повседнев или сокрушительный SPL-ветер.</p>
+        </div>
+
+        <div class="stage-card">
+          <div class="stage-num">02</div>
+          <h3>Расчет питания</h3>
+          <p>Рассчитываем сечение силового кабеля, номинал предохранителя и сопротивление катушек для максимального КПД усилителя.</p>
+        </div>
+
+        <div class="stage-card">
+          <div class="stage-num">03</div>
+          <h3>Комплектация</h3>
+          <p>Проверяем каждый сабвуфер, кабель и магнитолу перед отправкой. Надежно упаковываем и высылаем трек-номер.</p>
+        </div>
+
+        <div class="stage-card">
+          <div class="stage-num">04</div>
+          <h3>Настройка DSP</h3>
+          <p>Помогаем выставить срезы фильтров (LPF/HPF), временные задержки на процессорной магнитоле и гейн усилителя без клиппа.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       GALLERY SECTION (Требование 4, 5: галерея)
+       ========================================================================== -->
+  <section class="gallery-section" id="gallery" style="padding: 80px 0;">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Наши инсталляции</span>
+        <h2 class="section-title">ГАЛЕРЕЯ АВТОЗВУКОВЫХ ПРОЕКТОВ</h2>
+        <p class="section-desc">
+          Примеры готовых работ: от аккуратных стелс-коробов в крыло до масштабных SPL-стен на крупных калибрах.
+        </p>
+      </div>
+
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img src="images/apocalypse-db318.jpg" alt="Инсталляция 18 дюймов" loading="lazy" />
+          <div class="gallery-overlay">
+            <h4>SPL Монстр 18 Дюймов</h4>
+            <p>Ветродуй и инфраниз 25 Гц</p>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/focal-sub-10.jpg" alt="SQ Focal SUB 10" loading="lazy" />
+          <div class="gallery-overlay">
+            <h4>SQ Система Focal 10"</h4>
+            <p>Закрытый ящик для живого панча</p>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/barracuda-10.jpg" alt="Стелс короб крыло" loading="lazy" />
+          <div class="gallery-overlay">
+            <h4>Стелс в крыло автомобиля</h4>
+            <p>Плоский 10" сабвуфер без потери багажника</p>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/machete-0ga.jpg" alt="Силовая проводка 0 Ga" loading="lazy" />
+          <div class="gallery-overlay">
+            <h4>Силовая трасса 0 Ga OFC</h4>
+            <p>Питание моноблоков без просадок</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       TEAM / ABOUT CREATOR SECTION (Требование: данные создателя и ИП)
+       ========================================================================== -->
+  <section class="creator-section" id="creator" style="padding: 70px 0;">
+    <div class="container">
+      <div class="creator-card">
+        <div class="creator-avatar-wrap">
+          <div class="creator-avatar">
+            <i class="fa-solid fa-user-astronaut"></i>
+          </div>
+          <span class="badge badge-orange"><i class="fa-solid fa-award"></i> Основатель проекта</span>
+        </div>
+        <div class="creator-info">
+          <h3>Мустафаев Даниил</h3>
+          <div class="creator-role">Создатель магазина и сайта • Эксперт по автозвуку</div>
+          <p class="creator-bio">
+            «Моя цель — помочь каждому автовладельцу получить максимальную отдачу от звуковой системы без сожженных катушек, просадок по питанию и лишних затрат. Я лично отбираю оборудование в каталог, тестирую характеристики и помогаю с правильным подбором усилителей, кабелей и сабвуферов под любой автомобиль».
+          </p>
+          <div class="creator-credentials">
+            <div class="cred-badge">
+              <i class="fa-solid fa-building" style="color: var(--color-orange);"></i>
+              <span>Официально: ИП Мустафаев</span>
+            </div>
+            <div class="cred-badge">
+              <i class="fa-solid fa-envelope" style="color: var(--color-cyan);"></i>
+              <span>mustafaevdaniil07@gmail.com</span>
+            </div>
+            <div class="cred-badge">
+              <i class="fa-solid fa-sliders" style="color: var(--color-gold);"></i>
+              <span>Настройка DSP и SPL коробов</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       ORDER & REGISTRATION FORM (Требование 4: форма регистрации/заказа)
+       ========================================================================== -->
+  <section class="order-section" id="order">
+    <div class="container">
+      <div class="order-form-wrapper">
+        <div class="section-header" style="margin-bottom: 30px;">
+          <span class="section-tag">Быстрый расчет и заказ</span>
+          <h2 class="section-title">ОФОРМИТЬ ЗАЯВКУ / РЕГИСТРАЦИЯ</h2>
+          <p class="section-desc">
+            Оставьте заявку на комплектацию автозвука или расчет короба. Мы свяжемся с вами в течение 15 минут.
+          </p>
+        </div>
+
+        <form id="mainOrderForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="orderName"><i class="fa-solid fa-user"></i> Ваше имя *</label>
+              <input type="text" id="orderName" placeholder="Даниил" required />
+            </div>
+            <div class="form-group">
+              <label for="orderPhone"><i class="fa-solid fa-phone"></i> Номер телефона *</label>
+              <input type="tel" id="orderPhone" placeholder="+7 (999) 000-00-00" required />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="orderEmail"><i class="fa-solid fa-envelope"></i> Email (для сметы и трек-номера)</label>
+              <input type="email" id="orderEmail" placeholder="your-email@gmail.com" />
+            </div>
+            <div class="form-group">
+              <label for="orderCar"><i class="fa-solid fa-car"></i> Марка и модель автомобиля</label>
+              <input type="text" id="orderCar" placeholder="Например: Lada Vesta, Camry 70, BMW 3" />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="orderComponentType"><i class="fa-solid fa-list-check"></i> Что вас интересует в первую очередь?</label>
+            <select id="orderComponentType">
+              <option value="sub-12">Сабвуфер 12 дюймов (Универсальный бас)</option>
+              <option value="sub-8-10">Компактный сабвуфер 8-10" (Стелс в крыло / под сиденье)</option>
+              <option value="sub-15">Крупный сабвуфер 15 дюймов (Глубокие «низы» и флекс)</option>
+              <option value="sub-18">Экстремальный сабвуфер 18 дюймов (Ветродуй и спорт SPL)</option>
+              <option value="cables">Силовые и акустические кабели (КГ 1х25, 0 Ga, 4 Ga)</option>
+              <option value="headunits">Магнитола с DSP процессором</option>
+              <option value="full-system">Комплексная аудиосистема «под ключ»</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="orderComment"><i class="fa-solid fa-comment-dots"></i> Пожелания к заказу / компоненты из корзины</label>
+            <textarea id="orderComment" rows="3" placeholder="Укажите выбранные товары или вопросы по расчету питания/короба..."></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary" style="width: 100%; font-size: 1.05rem; padding: 15px;">
+            <i class="fa-solid fa-check"></i> Отправить заявку в Mustafaev Audio
+          </button>
+          <p style="font-size: 0.76rem; color: var(--text-muted); text-align: center; margin-top: 12px;">
+            Нажимая кнопку, вы соглашаетесь на обработку персональных данных ИП Мустафаев в соответствии с законодательством РФ.
+          </p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       CONTACTS & MAP SECTION
+       (Требование 3: раздел Контакты с фрагментом карты и адресом, активные соцсети)
+       ========================================================================== -->
+  <section class="contacts-section" id="contacts">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Связь и самовывоз</span>
+        <h2 class="section-title">КОНТАКТНЫЕ ДАННЫЕ И КАРТА</h2>
+        <p class="section-desc">
+          Приглашаем посетить наш демонстрационный шоурум и студию автозвука в Майкопе.
+        </p>
+      </div>
+
+      <div class="contacts-grid">
+        <!-- Контактная карточка со всеми реквизитами из промпта -->
+        <div class="contact-card">
+          <div class="contact-item">
+            <div class="contact-icon-box">
+              <i class="fa-solid fa-id-card"></i>
+            </div>
+            <div class="contact-text">
+              <h5>Организационная форма</h5>
+              <p>ИП Мустафаев</p>
+              <small style="color: var(--text-muted);">Создатель магазина и сайта: Мустафаев Даниил</small>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon-box">
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div class="contact-text">
+              <h5>Электронная почта</h5>
+              <a href="mailto:mustafaevdaniil07@gmail.com">mustafaevdaniil07@gmail.com</a>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon-box">
+              <i class="fa-solid fa-phone"></i>
+            </div>
+            <div class="contact-text">
+              <h5>Телефон для консультаций</h5>
+              <a href="tel:+79991234567">+7 (999) 123-45-67</a>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon-box">
+              <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <div class="contact-text">
+              <h5>Адрес магазина и студии</h5>
+              <p>г. Майкоп, ул. Карла Маркса, д. 17</p>
+              <small style="color: var(--text-muted);">Ежедневно: 10:00 — 21:00 (без выходных)</small>
+            </div>
+          </div>
+
+          <!-- Активные кнопки для связи в соцсетях (Требование 4) -->
+          <div>
+            <h5 style="font-size: 0.8rem; color: var(--text-muted); text-transform: uppercase; margin-bottom: 10px;">
+              Мы в социальных сетях:
+            </h5>
+            <div class="social-links">
+              <a href="https://t.me" target="_blank" rel="noopener noreferrer" class="social-btn tg" title="Telegram">
+                <i class="fa-brands fa-telegram"></i>
+              </a>
+              <a href="https://vk.com" target="_blank" rel="noopener noreferrer" class="social-btn vk" title="ВКонтакте">
+                <i class="fa-brands fa-vk"></i>
+              </a>
+              <a href="https://whatsapp.com" target="_blank" rel="noopener noreferrer" class="social-btn wa" title="WhatsApp">
+                <i class="fa-brands fa-whatsapp"></i>
+              </a>
+              <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" class="social-btn yt" title="YouTube канал">
+                <i class="fa-brands fa-youtube"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Фрагмент интерактивной Яндекс.Карты с адресом (Требование 3) -->
+        <div class="map-wrapper" style="position: relative;">
+          <iframe 
+            src="https://yandex.ru/map-widget/v1/?ll=40.088631%2C44.611336&z=17&mode=search&text=%D0%9C%D0%B0%D0%B9%D0%BA%D0%BE%D0%BF%2C%20%D1%83%D0%BB%D0%B8%D1%86%D0%B0%20%D0%9A%D0%B0%D1%80%D0%BB%D0%B0%20%D0%9C%D0%B0%D1%80%D0%BA%D1%81%D0%B0%2C%2017&sll=40.088631%2C44.611336&pt=40.088631%2C44.611336%2Cpm2rdm" 
+            width="100%" 
+            height="100%" 
+            frameborder="0" 
+            allowfullscreen="true" 
+            style="position: relative; width: 100%; height: 100%; min-height: 420px; border: 0;"
+            title="Яндекс Карта - ИП Мустафаев, г. Майкоп, ул. Карла Маркса, 17">
+          </iframe>
+          <div style="position: absolute; bottom: 14px; left: 14px; z-index: 2;">
+            <a href="https://yandex.ru/maps/?rtext=~44.611336,40.088631" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary" style="box-shadow: 0 4px 15px rgba(0,0,0,0.6);">
+              <i class="fa-solid fa-diamond-turn-right"></i> Построить маршрут в Яндекс Картах
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       CART DRAWER & OVERLAY
+       ========================================================================== -->
+  <div class="cart-overlay" id="cartOverlay"></div>
+  <aside class="cart-drawer" id="cartDrawer" aria-label="Корзина покупок">
+    <div class="cart-header">
+      <h3><i class="fa-solid fa-cart-shopping" style="color: var(--color-orange);"></i> Корзина</h3>
+      <button class="close-btn" id="closeCartBtn" aria-label="Закрыть корзину">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+    </div>
+
+    <div class="cart-body" id="cartItemsList">
+      <!-- Generated by JavaScript -->
+    </div>
+
+    <div class="cart-footer">
+      <div class="cart-total-row">
+        <span>Итого к оплате:</span>
+        <span class="cart-total-price" id="cartTotalPrice">0 ₽</span>
+      </div>
+      <button class="btn btn-primary" id="checkoutBtn" style="width: 100%;">
+        <i class="fa-solid fa-credit-card"></i> Оформить заказ
+      </button>
+    </div>
+  </aside>
+
+  <!-- ==========================================================================
+       FOOTER (Требование 2: подвал со всеми обязательными элементами)
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-col">
+          <div class="brand-logo" style="margin-bottom: 16px;">
+            <div class="logo-icon">
+              <i class="fa-solid fa-bolt-lightning" style="color: #fff; font-size: 1.25rem;"></i>
+            </div>
+            <div class="logo-text">
+              <h1>ИП <span>МУСТАФАЕВ</span></h1>
+              <p>Магазин автомобильной акустики</p>
+            </div>
+          </div>
+          <p style="font-size: 0.88rem; color: var(--text-secondary); line-height: 1.6; margin-bottom: 16px;">
+            Профессиональное автозвуковое оборудование: сабвуферы 8", 10", 12", 15", 18", силовые кабели 100% медь и процессорные магнитолы.
+          </p>
+          <span class="badge badge-orange">ИП Мустафаев</span>
+        </div>
+
+        <div class="footer-col">
+          <h4>Категории товаров</h4>
+          <div class="footer-links">
+            <a href="#catalog">Сабвуферы 8 и 10 дюймов</a>
+            <a href="#catalog">Сабвуферы 12 дюймов</a>
+            <a href="#catalog">Сабвуферы 15 дюймов</a>
+            <a href="#catalog">Сабвуферы 18 дюймов</a>
+            <a href="#catalog">Кабели силовые & акустические</a>
+            <a href="#catalog">Магнитолы с DSP процессором</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Навигация</h4>
+          <div class="footer-links">
+            <a href="#pyramid">Пирамида калибров</a>
+            <a href="#zero-block">Zero-блок & Калькулятор</a>
+            <a href="#advantages">Наши преимущества</a>
+            <a href="#stages">Этапы работы</a>
+            <a href="#gallery">Галерея инсталляций</a>
+            <a href="#creator">О создателе</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Контакты</h4>
+          <div class="footer-links">
+            <span style="color: #fff; font-weight: 600;">ИП Мустафаев</span>
+            <span style="color: var(--text-secondary); font-size: 0.88rem;">Создатель: Мустафаев Даниил</span>
+            <a href="mailto:mustafaevdaniil07@gmail.com"><i class="fa-solid fa-envelope"></i> mustafaevdaniil07@gmail.com</a>
+            <a href="tel:+79991234567"><i class="fa-solid fa-phone"></i> +7 (999) 123-45-67</a>
+            <span style="color: var(--text-muted); font-size: 0.84rem;">г. Майкоп, ул. Карла Маркса, д. 17</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 ИП Мустафаев. Все права защищены. Создатель магазина и сайта: Мустафаев Даниил.
+        </div>
+        <div>
+          Магазин автомобильной акустики • г. Майкоп, ул. Карла Маркса, 17.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Application JS -->
+  <script src="js/app.js"></script>
+</body>
+</html>
